@@ -6,7 +6,7 @@ app.use(express.json());
 // API 1
 app.get("/hello", (req, res) => {
   res.json({
-    message: "Hello, World!"
+    message: "Hello from main branch "
   });
 });
 
